@@ -1,5 +1,8 @@
 # To activate VENV:
-# - git bash terminal:  cd Scripts && . activate
+# - git bash terminal:  cd Scripts && . activate && cd ..
+
+# To deactivate VENV:
+# - git bash terminal:  deactivate
 
 # To run Flask app (Windows):
 # - set FLASK_APP=server.py
