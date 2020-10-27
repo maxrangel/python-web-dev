@@ -1,7 +1,7 @@
-from flask import Flask, render_template, url_for, request
+from flask import Flask, render_template, request, redirect
 # Needed to render static files
 app = Flask(__name__,
-            static_url_path='',
+            static_url_path='/static',
             static_folder='static',
             template_folder='templates')
 
@@ -19,4 +19,6 @@ def html_page(page_name=None):
 @app.route('/submit-form', methods=['POST', 'GET'])
 def form():
     if request.method == 'POST':
-        return 'Form submitted!'
+        data = request.form.to_dict()
+
+        return redirect('/thankyou')

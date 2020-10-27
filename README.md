@@ -4,9 +4,8 @@
 # To deactivate VENV:
 # - git bash terminal:  deactivate
 
-# To run Flask app (Windows):
-# - set FLASK_APP=server.py
-# - export FLASK_APP=server.py
+# To run Flask app (Windows) Copy and paste on the cmd:
+# - git bash terminal: set FLASK_APP=server.py && export FLASK_APP=server.py
 # - flask run
 
 # Set debug mode:
