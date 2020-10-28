@@ -17,3 +17,5 @@
 # - Import render_template from flask
 # - Create templates folder on project
 # - Create html file and pass the name of that file to the render_template method
+
+# Visit my website: http://maxrngl.pythonanywhere.com/
